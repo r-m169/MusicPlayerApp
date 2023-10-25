@@ -38,15 +38,5 @@ public class Album {
         return checkedSong.getSongName().equals(title);
     }
 
-    public boolean addToPlayList(int trackNumber, LinkedList<Song> PlayList) {
-        if (isTrackNumberValid(trackNumber)) {
-            PlayList.add(this.songs.get(trackNumber - 1));
-        }
-        return false;
-    }
-
-    public boolean isTrackNumberValid(int trackNumber) {
-        int index = trackNumber - 1;
-        return index >= 0 && index < this.songs.size();
-    }
+   
 }
