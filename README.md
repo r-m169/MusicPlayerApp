@@ -11,6 +11,7 @@ The workspace contains two folders by default, where:
 
 
 ## I tried to apply these concepts :
+- Polymarphism
 - Overriding
 - Overloading 
 - Encapsulation
