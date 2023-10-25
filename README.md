@@ -10,9 +10,10 @@ The workspace contains two folders by default, where:
 - `lib`: the folder to maintain dependencies
 
 
-## I tried to apply these principles :
+## I tried to apply these concepts :
 - Overriding
 - Overloading 
 - Encapsulation
 - step down rule (clean code concept)
 - Single Responsability 
+- Meaningful names (clean code concept)
